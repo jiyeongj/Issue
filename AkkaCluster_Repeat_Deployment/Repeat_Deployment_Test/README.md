@@ -3,7 +3,7 @@ An exception occurs when the Non-Seed node is executed and terminated repeatedly
 This is Scenario.
 
 1. Start application SeedNode, NonSeedNode1, NonSeedNode2.
-2. Run the `NonSeedNode/test.bat`.
+2. Run the **`NonSeedNode2/test.bat`** for test automation.
    - This batch file repeats the process of shutting down and running NonSeedNode2.exe. Set the Timeout value between each course to 5. Each process takes place once in five seconds.
 3. If this process is repeated more than 10 times, the next log is output and SeedNode is down.
 ```
