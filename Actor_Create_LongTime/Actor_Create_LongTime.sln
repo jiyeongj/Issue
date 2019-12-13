@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalActor", "LocalActor", "{627FD105-2624-4AC5-A596-27677E6388F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClusterPoolRouter", "ClusterPoolRouter", "{11083260-C766-44B5-8EEB-095101123AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLocalActor", "LocalActor\BasicLocalActor\BasicLocalActor.csproj", "{6B8FB7E6-A52C-48A2-B013-F87EE28B7975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployedActor", "ClusterPoolRouter\DeployedActor\DeployedActor.csproj", "{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode1", "ClusterPoolRouter\NonSeedNode1\NonSeedNode1.csproj", "{5840E31C-D098-4AEB-9EA8-B577B037B5B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode2", "ClusterPoolRouter\NonSeedNode2\NonSeedNode2.csproj", "{5C75CA9F-5691-47AB-82F6-24F69ED98575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode1", "ClusterPoolRouter\SeedNode1\SeedNode1.csproj", "{6BD05ED7-789A-4B3B-8017-C78B782818C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8FB7E6-A52C-48A2-B013-F87EE28B7975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8FB7E6-A52C-48A2-B013-F87EE28B7975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8FB7E6-A52C-48A2-B013-F87EE28B7975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8FB7E6-A52C-48A2-B013-F87EE28B7975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5840E31C-D098-4AEB-9EA8-B577B037B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5840E31C-D098-4AEB-9EA8-B577B037B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5840E31C-D098-4AEB-9EA8-B577B037B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5840E31C-D098-4AEB-9EA8-B577B037B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C75CA9F-5691-47AB-82F6-24F69ED98575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C75CA9F-5691-47AB-82F6-24F69ED98575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C75CA9F-5691-47AB-82F6-24F69ED98575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C75CA9F-5691-47AB-82F6-24F69ED98575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD05ED7-789A-4B3B-8017-C78B782818C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD05ED7-789A-4B3B-8017-C78B782818C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD05ED7-789A-4B3B-8017-C78B782818C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD05ED7-789A-4B3B-8017-C78B782818C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B8FB7E6-A52C-48A2-B013-F87EE28B7975} = {627FD105-2624-4AC5-A596-27677E6388F6}
+		{434A1F33-DDB3-4B24-8AB2-2EDB8F78F9DA} = {11083260-C766-44B5-8EEB-095101123AC4}
+		{5840E31C-D098-4AEB-9EA8-B577B037B5B7} = {11083260-C766-44B5-8EEB-095101123AC4}
+		{5C75CA9F-5691-47AB-82F6-24F69ED98575} = {11083260-C766-44B5-8EEB-095101123AC4}
+		{6BD05ED7-789A-4B3B-8017-C78B782818C1} = {11083260-C766-44B5-8EEB-095101123AC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88FF41D9-92F7-455C-A54A-F5675FA5A9EE}
+	EndGlobalSection
+EndGlobal
